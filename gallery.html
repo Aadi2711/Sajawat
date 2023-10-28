@@ -1048,7 +1048,7 @@
                             <div id="site-logo" class="clr has-full-screen-logo" itemscope itemtype="https://schema.org/Brand">
                                 <div id="site-logo-inner" class="clr">
                                     <a href="home.html" class="custom-logo-link" rel="home">
-                                        <img width="409" height="142" src="assets/logotransparent.png" style="height: 70%;"/>
+                                        <img width="409" height="142" src="assets/logotransparent.png"/>
                                     </a>
                                     <a href="home.html" class="full-screen-logo-link" rel="home" itemprop="url">
                                         <img src="assets/logo.jpeg" class="full-screen-logo" alt="" style="height: 70%;"/>
@@ -1160,7 +1160,7 @@
                                 </div>
                             </div>
                         </section>
-                        <section class="elementor-section elementor-top-section elementor-element elementor-element-3194e37c elementor-section-height-min-height elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="3194e37c" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;video&quot;,&quot;shape_divider_bottom&quot;:&quot;wave-brush&quot;}">
+                        <section class="elementor-section elementor-top-section elementor-element elementor-element-3194e37c elementor-section-height-min-height elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-items-middle" style="margin-top: 16px;" data-id="3194e37c" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;video&quot;,&quot;shape_divider_bottom&quot;:&quot;wave-brush&quot;}">
                             <div class="elementor-background-overlay"></div>
                             <!-- <div class="elementor-shape elementor-shape-bottom" data-negative="false">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 283.5 27.8" preserveAspectRatio="none">
@@ -1217,7 +1217,7 @@
                                                         font-size: 59px
                                                     }
                                                 </style>
-                                                <h2 class="elementor-heading-title elementor-size-default">Our Portfolio.</h2>
+                                                <h2 class="elementor-heading-title elementor-size-default">Our Portfolio</h2>
                                             </div>
                                         </div>
                                     </div>
@@ -1417,79 +1417,83 @@
                                                                 <div class="elementor-image-gallery">
                                                                     <div id='gallery-1' class='gallery galleryid-401 gallery-columns-3 gallery-size-medium_large' style="display: flex; flex-wrap: wrap;">
                                                                         <figure class='gallery-item'>
-                                                                            <div class='gallery-icon landscape'>
-                                                                                <img width="768" height="523" src="assets/gallery1.jpeg" />
-                                                                                <!-- <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="dd09ab8" data-elementor-lightbox-title="InShot_20221116_220205784" e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAzMCwidXJsIjoiaHR0cHM6XC9cL2FzaHdpaW5paWRvbmdhcmUuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIzXC8wOVwvSW5TaG90XzIwMjIxMTE2XzIyMDIwNTc4NC1zY2FsZWQuanBnIiwic2xpZGVzaG93IjoiZGQwOWFiOCJ9" href='https://ashwiiniidongare.com/wp-content/uploads/2023/09/InShot_20221116_220205784-scaled.jpg'>
-                                                                                    
-                                                                                </a> -->
+                                                                            <div class='gallery-icon landscape' onclick="openLightbox(event, 1)">
+                                                                                <img width="768" height="511" src="assets/gallery1.jpeg" />
+                                                                            </div>
+                                                                            <div class="overlay" id="overlay1" onclick="closeLightbox(1)">
+                                                                                <img src="assets/gallery1.jpeg">
                                                                             </div>
                                                                         </figure>
                                                                         <figure class='gallery-item'>
-                                                                            <div class='gallery-icon landscape'>
-                                                                                <img width="768" height="512" src="assets/gallery2.jpeg" />
-                                                                                <!-- <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="dd09ab8" data-elementor-lightbox-title="photo-output 46" e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjA5MSwidXJsIjoiaHR0cHM6XC9cL2FzaHdpaW5paWRvbmdhcmUuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIzXC8wOVwvcGhvdG8tb3V0cHV0LTQ2LXNjYWxlZC5qcGciLCJzbGlkZXNob3ciOiJkZDA5YWI4In0%3D" href='https://ashwiiniidongare.com/wp-content/uploads/2023/09/photo-output-46-scaled.jpg'>
-                                                                                    
-                                                                                </a> -->
+                                                                            <div class='gallery-icon landscape' onclick="openLightbox(event, 2)">
+                                                                                <img width="768" height="511" src="assets/gallery2.jpeg" />
+                                                                            </div>
+                                                                            <div class="overlay" id="overlay2" onclick="closeLightbox(2)">
+                                                                                <img src="assets/gallery2.jpeg">
                                                                             </div>
                                                                         </figure>
                                                                         <figure class='gallery-item'>
-                                                                            <div class='gallery-icon landscape'>
-                                                                                <img width="768" height="549" src="assets/gallery3.jpeg" />
-                                                                                <!-- <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="dd09ab8" data-elementor-lightbox-title="InShot_20221116_220510615" e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAzNSwidXJsIjoiaHR0cHM6XC9cL2FzaHdpaW5paWRvbmdhcmUuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIzXC8wOVwvSW5TaG90XzIwMjIxMTE2XzIyMDUxMDYxNS1zY2FsZWQuanBnIiwic2xpZGVzaG93IjoiZGQwOWFiOCJ9" href='https://ashwiiniidongare.com/wp-content/uploads/2023/09/InShot_20221116_220510615-scaled.jpg'>
-                                                                                    
-                                                                                </a> -->
+                                                                            <div class='gallery-icon landscape' onclick="openLightbox(event, 3)">
+                                                                                <img width="768" height="511" src="assets/gallery3.jpeg" />
+                                                                            </div>
+                                                                            <div class="overlay" id="overlay3" onclick="closeLightbox(3)">
+                                                                                <img src="assets/gallery3.jpeg">
                                                                             </div>
                                                                         </figure>
                                                                         
                                                                         <figure class='gallery-item'>
-                                                                            <div class='gallery-icon landscape'>
-                                                                                <img width="768" height="518" src="assets/gallery5.jpeg" />
-                                                                                <!-- <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="dd09ab8" data-elementor-lightbox-title="photo-output 3" e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjA2NSwidXJsIjoiaHR0cHM6XC9cL2FzaHdpaW5paWRvbmdhcmUuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIzXC8wOVwvcGhvdG8tb3V0cHV0LTMtc2NhbGVkLmpwZyIsInNsaWRlc2hvdyI6ImRkMDlhYjgifQ%3D%3D" href='https://ashwiiniidongare.com/wp-content/uploads/2023/09/photo-output-3-scaled.jpg'>
-                                                                                    
-                                                                                </a> -->
+                                                                            <div class='gallery-icon landscape' onclick="openLightbox(event, 5)">
+                                                                                <img width="768" height="511" src="assets/gallery5.jpeg" />
+                                                                            </div>
+                                                                            <div class="overlay" id="overlay5" onclick="closeLightbox(5)">
+                                                                                <img src="assets/gallery5.jpeg">
                                                                             </div>
                                                                         </figure>
+                                                                        
                                                                         <figure class='gallery-item'>
-                                                                            <div class='gallery-icon landscape'>
+                                                                            <div class='gallery-icon landscape' onclick="openLightbox(event, 6)">
                                                                                 <img width="768" height="511" src="assets/gallery6.jpeg" />
-                                                                                <!-- <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="dd09ab8" data-elementor-lightbox-title="InShot_20221116_222935127" e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjA0MCwidXJsIjoiaHR0cHM6XC9cL2FzaHdpaW5paWRvbmdhcmUuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIzXC8wOVwvSW5TaG90XzIwMjIxMTE2XzIyMjkzNTEyNy1zY2FsZWQuanBnIiwic2xpZGVzaG93IjoiZGQwOWFiOCJ9" href='https://ashwiiniidongare.com/wp-content/uploads/2023/09/InShot_20221116_222935127-scaled.jpg'>
-                                                                                    
-                                                                                </a> -->
+                                                                            </div>
+                                                                            <div class="overlay" id="overlay6" onclick="closeLightbox(6)">
+                                                                                <img src="assets/gallery6.jpeg">
                                                                             </div>
                                                                         </figure>
                                                                         
                                                                         
                                                                         <figure class='gallery-item'>
-                                                                            <div class='gallery-icon landscape'>
+                                                                            <div class='gallery-icon landscape' onclick="openLightbox(event, 9)">
                                                                                 <img width="768" height="511" src="assets/gallery9.jpeg" />
-                                                                                <!-- <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="dd09ab8" data-elementor-lightbox-title="InShot_20221116_222602173" e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAzOSwidXJsIjoiaHR0cHM6XC9cL2FzaHdpaW5paWRvbmdhcmUuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIzXC8wOVwvSW5TaG90XzIwMjIxMTE2XzIyMjYwMjE3My1zY2FsZWQuanBnIiwic2xpZGVzaG93IjoiZGQwOWFiOCJ9" href='https://ashwiiniidongare.com/wp-content/uploads/2023/09/InShot_20221116_222602173-scaled.jpg'>
-                                                                                    
-                                                                                </a> -->
+                                                                            </div>
+                                                                            <div class="overlay" id="overlay9" onclick="closeLightbox(9)">
+                                                                                <img src="assets/gallery9.jpeg">
                                                                             </div>
                                                                         </figure>
                                                                         
+                                                                        
                                                                         <figure class='gallery-item'>
-                                                                            <div class='gallery-icon landscape'>
-                                                                                
-                                                                                <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="dd09ab8" data-elementor-lightbox-title="photo-output 66" e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjA5NCwidXJsIjoiaHR0cHM6XC9cL2FzaHdpaW5paWRvbmdhcmUuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIzXC8wOVwvcGhvdG8tb3V0cHV0LTY2LXNjYWxlZC5qcGciLCJzbGlkZXNob3ciOiJkZDA5YWI4In0%3D" href='./assets/gallery4.jpeg'>
-                                                                                    <img width="768" height="512" src="assets/gallery4.jpeg" />
-                                                                                </a>
+                                                                            <div class='gallery-icon landscape' onclick="openLightbox(event, 4)">
+                                                                                <img width="768" height="511" src="assets/gallery4.jpeg" />
+                                                                            </div>
+                                                                            <div class="overlay" id="overlay4" onclick="closeLightbox(4)">
+                                                                                <img src="assets/gallery4.jpeg">
                                                                             </div>
                                                                         </figure>
+
                                                                         <figure class='gallery-item'>
-                                                                            <div class='gallery-icon landscape'>
-                                                                                <img width="768" height="512" src="assets/gallery7.jpeg" />
-                                                                                <!-- <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="dd09ab8" data-elementor-lightbox-title="InShot_20221116_225343641" e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjA5MCwidXJsIjoiaHR0cHM6XC9cL2FzaHdpaW5paWRvbmdhcmUuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIzXC8wOVwvSW5TaG90XzIwMjIxMTE2XzIyNTM0MzY0MS0xLXNjYWxlZC5qcGciLCJzbGlkZXNob3ciOiJkZDA5YWI4In0%3D" href='https://ashwiiniidongare.com/wp-content/uploads/2023/09/InShot_20221116_225343641-1-scaled.jpg'>
-                                                                                    
-                                                                                </a> -->
+                                                                            <div class='gallery-icon landscape' onclick="openLightbox(event, 7)">
+                                                                                <img width="768" height="511" src="assets/gallery7.jpeg" />
+                                                                            </div>
+                                                                            <div class="overlay" id="overlay7" onclick="closeLightbox(7)">
+                                                                                <img src="assets/gallery7.jpeg">
                                                                             </div>
                                                                         </figure>
+
                                                                         <figure class='gallery-item'>
-                                                                            <div class='gallery-icon landscape'>
-                                                                                <img width="768" height="527" src="assets/gallery8.jpeg" />
-                                                                                <!-- <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="dd09ab8" data-elementor-lightbox-title="InShot_20221116_224315692" e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjA0MiwidXJsIjoiaHR0cHM6XC9cL2FzaHdpaW5paWRvbmdhcmUuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIzXC8wOVwvSW5TaG90XzIwMjIxMTE2XzIyNDMxNTY5Mi1zY2FsZWQuanBnIiwic2xpZGVzaG93IjoiZGQwOWFiOCJ9" href='https://ashwiiniidongare.com/wp-content/uploads/2023/09/InShot_20221116_224315692-scaled.jpg'>
-                                                                                    
-                                                                                </a> -->
+                                                                            <div class='gallery-icon landscape' onclick="openLightbox(event, 8)">
+                                                                                <img width="768" height="511" src="assets/gallery8.jpeg" />
+                                                                            </div>
+                                                                            <div class="overlay" id="overlay8" onclick="closeLightbox(8)">
+                                                                                <img src="assets/gallery8.jpeg">
                                                                             </div>
                                                                         </figure>
                                                                         <!-- <figure class='gallery-item'>
@@ -1884,6 +1888,27 @@
         <script src='https://ashwiiniidongare.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.10.1' id='elementor-frontend-modules-js'></script>
         <script src='https://ashwiiniidongare.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2' id='elementor-waypoints-js'></script>
         <script src='https://ashwiiniidongare.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2' id='jquery-ui-core-js'></script>
+        <script>
+            // Function to open the clicked image
+            function openLightbox(event, id) {
+                const overlay = document.getElementById(`overlay${id}`);
+                overlay.style.display = 'flex';
+            }
+
+            // Function to close the image
+            function closeLightbox(id) {
+                const overlay = document.getElementById(`overlay${id}`);
+                overlay.style.display = 'none';
+            }
+
+            // Close all overlays when the page loads
+            document.addEventListener('DOMContentLoaded', function() {
+                const overlays = document.querySelectorAll('.overlay');
+                overlays.forEach(overlay => {
+                    overlay.style.display = 'none';
+                });
+            });
+        </script>
         <script id='elementor-frontend-js-before'>
             var elementorFrontendConfig = {
                 "environmentMode": {
